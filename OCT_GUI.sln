@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCT_GUI", "OCT_GUI\OCT_GUI.vcxproj", "{1E6C3ED2-76AE-4596-B600-52160D755B9A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll_test", "Dll_test\Dll_test.vcxproj", "{C6B3EA79-BB1B-4FD4-B115-D48BCC48082C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E6C3ED2-76AE-4596-B600-52160D755B9A} = {1E6C3ED2-76AE-4596-B600-52160D755B9A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

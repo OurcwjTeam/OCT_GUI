@@ -11,3 +11,5 @@
 #include "framework.h"
 
 #endif //PCH_H
+
+#define IS_DLL
