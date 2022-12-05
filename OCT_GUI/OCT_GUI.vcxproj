@@ -145,11 +145,15 @@
   <ItemGroup>
     <ClInclude Include="dll_export.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="OC_window.h" />
+    <ClInclude Include="OC_windproc.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="dll_export.cpp" />
+    <ClCompile Include="OC_window.cpp" />
+    <ClCompile Include="OC_windproc.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

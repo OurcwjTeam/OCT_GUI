@@ -13,32 +13,62 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\导出函数">
+      <UniqueIdentifier>{69c94034-36b0-4a15-9042-211fa1010165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\导出函数">
+      <UniqueIdentifier>{24739642-3f0f-4f25-9f8d-647896c57746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\杂七杂八">
+      <UniqueIdentifier>{6cfd3f64-3f60-434e-bd0c-aefe58e78b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\杂七杂八">
+      <UniqueIdentifier>{0f2779c4-24df-4b5f-b060-dd2b5940c8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\win32">
+      <UniqueIdentifier>{d736d373-df62-4fe9-9486-02190088d380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\win32">
+      <UniqueIdentifier>{5c5c9d48-f317-4579-842f-434b29399b52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dll_export.h">
+      <Filter>头文件\导出函数</Filter>
+    </ClInclude>
     <ClInclude Include="framework.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\杂七杂八</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\杂七杂八</Filter>
     </ClInclude>
-    <ClInclude Include="dll_export.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="OC_window.h">
+      <Filter>头文件\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="OC_windproc.h">
+      <Filter>头文件\win32</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dll_export.cpp">
+      <Filter>源文件\导出函数</Filter>
+    </ClCompile>
     <ClCompile Include="dllmain.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\杂七杂八</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\杂七杂八</Filter>
     </ClCompile>
-    <ClCompile Include="dll_export.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="OC_window.cpp">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="OC_windproc.cpp">
+      <Filter>源文件\win32</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Source.def">
-      <Filter>源文件</Filter>
+      <Filter>源文件\导出函数</Filter>
     </None>
   </ItemGroup>
 </Project>
