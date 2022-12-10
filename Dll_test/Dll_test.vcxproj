@@ -133,6 +133,7 @@
       <UACExecutionLevel>AsInvoker</UACExecutionLevel>
       <UACUIAccess>false</UACUIAccess>
       <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>..\x64\Release\OCT_GUI.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
