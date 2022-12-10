@@ -4,11 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCT_GUI", "OCT_GUI\OCT_GUI.vcxproj", "{1E6C3ED2-76AE-4596-B600-52160D755B9A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2} = {5042BE06-D44D-4BA0-99A8-8D27249D46A2}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll_test", "Dll_test\Dll_test.vcxproj", "{C6B3EA79-BB1B-4FD4-B115-D48BCC48082C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1E6C3ED2-76AE-4596-B600-52160D755B9A} = {1E6C3ED2-76AE-4596-B600-52160D755B9A}
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2} = {5042BE06-D44D-4BA0-99A8-8D27249D46A2}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI_lib", "GUI_lib\GUI_lib.vcxproj", "{5042BE06-D44D-4BA0-99A8-8D27249D46A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "share", "share\share.vcxitems", "{405B48AD-EB9D-46B7-A12B-F4915062B017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,11 +42,24 @@ Global
 		{C6B3EA79-BB1B-4FD4-B115-D48BCC48082C}.Release|x64.Build.0 = Release|x64
 		{C6B3EA79-BB1B-4FD4-B115-D48BCC48082C}.Release|x86.ActiveCfg = Release|Win32
 		{C6B3EA79-BB1B-4FD4-B115-D48BCC48082C}.Release|x86.Build.0 = Release|Win32
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Debug|x64.ActiveCfg = Debug|x64
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Debug|x64.Build.0 = Debug|x64
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Debug|x86.Build.0 = Debug|Win32
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Release|x64.ActiveCfg = Release|x64
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Release|x64.Build.0 = Release|x64
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Release|x86.ActiveCfg = Release|Win32
+		{5042BE06-D44D-4BA0-99A8-8D27249D46A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E3F3412-633B-4358-932E-571C4CF07C86}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		share\share.vcxitems*{1e6c3ed2-76ae-4596-b600-52160d755b9a}*SharedItemsImports = 4
+		share\share.vcxitems*{405b48ad-eb9d-46b7-a12b-f4915062b017}*SharedItemsImports = 9
+		share\share.vcxitems*{5042be06-d44d-4ba0-99a8-8d27249d46a2}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal

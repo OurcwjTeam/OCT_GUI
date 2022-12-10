@@ -42,9 +42,6 @@
     <ClInclude Include="pch.h">
       <Filter>头文件\杂七杂八</Filter>
     </ClInclude>
-    <ClInclude Include="OC_window.h">
-      <Filter>头文件\win32</Filter>
-    </ClInclude>
     <ClInclude Include="OC_windproc.h">
       <Filter>头文件\win32</Filter>
     </ClInclude>
@@ -58,9 +55,6 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>源文件\杂七杂八</Filter>
-    </ClCompile>
-    <ClCompile Include="OC_window.cpp">
-      <Filter>源文件\win32</Filter>
     </ClCompile>
     <ClCompile Include="OC_windproc.cpp">
       <Filter>源文件\win32</Filter>
