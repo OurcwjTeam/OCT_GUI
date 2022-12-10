@@ -1,29 +1,29 @@
-#include "pch.h"
+ï»¿#include "pch.h"
 #include "OCT_windowProc.h"
 
-
-LRESULT Oporc::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+// æµ‹è¯• windowproc å‡½æ•°çš„å®é™…å®ç°
+LRESULT Oproc::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 
     switch (uMsg){
 
-    // ´¦ÀíÓÃ»§µã»÷¹Ø±ÕÊ±µÄÏûÏ¢
+    // å¤„ç†ç”¨æˆ·ç‚¹å‡»å…³é—­æ—¶çš„æ¶ˆæ¯
     case WM_CLOSE: {
 
-        if (MessageBoxA(hwnd, "ÕæµÄÒªÍË³öÂğ?", "ÌáÊ¾", MB_OKCANCEL) == IDOK)
+        if (MessageBoxA(hwnd, "çœŸçš„è¦é€€å‡ºå—?", "æç¤º", MB_OKCANCEL) == IDOK)
         {
             DestroyWindow(hwnd);
         }
 
     }
 
-    // ´¦Àí½ø³ÌÍË³öÏûÏ¢
+    // å¤„ç†è¿›ç¨‹é€€å‡ºæ¶ˆæ¯
     case WM_DESTROY: {
 
         PostQuitMessage(0);  
     }
 
-    // ´¦Àí´°¿Ú»æÖÆÏûÏ¢  ÕâÍæÒâ³­µÄ,ÎÒÒ²¿´²»¶®
+    // å¤„ç†çª—å£ç»˜åˆ¶æ¶ˆæ¯  è¿™ç©æ„æŠ„çš„,æˆ‘ä¹Ÿçœ‹ä¸æ‡‚
     case WM_PAINT:
     {
         PAINTSTRUCT ps;
@@ -39,5 +39,5 @@ LRESULT Oporc::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
     return 0;
     }
 
-	return DefWindowProc(hwnd, uMsg, wParam, lParam);  // Ä¬ÈÏÏûÏ¢´¦Àí
+	return DefWindowProc(hwnd, uMsg, wParam, lParam);  // é»˜è®¤æ¶ˆæ¯å¤„ç†
 }
