@@ -1,11 +1,11 @@
-#pragma once
+ï»¿#pragma once
 #include"pch.h"
 #include<Windows.h>
 
 #ifdef IS_DLL
-#define DLL_IMPORT_PRC _declspec(dllexport)		// DLLº¯Êýµ¼³öÐÞÊÎÆ÷
+#define DLL_IMPORT_PRC _declspec(dllexport)		// DLLå‡½æ•°å¯¼å‡ºä¿®é¥°å™¨
 #else
-#define DLL_IMPORT_PRC _declspec(dllimport)		// DLLº¯Êýµ¼ÈëÐÞÊÎÆ÷
+#define DLL_IMPORT_PRC _declspec(dllimport)		// DLLå‡½æ•°å¯¼å…¥ä¿®é¥°å™¨
 #endif // IS_DLL
 
 DLL_IMPORT_PRC void test(LPCSTR text);

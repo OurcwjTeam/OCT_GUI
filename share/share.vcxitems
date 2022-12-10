@@ -17,4 +17,7 @@
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)OCT_windowProc.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)游标.cur" />
+  </ItemGroup>
 </Project>

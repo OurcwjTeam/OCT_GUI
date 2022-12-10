@@ -1,11 +1,11 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include "OC_windproc.h"
 #include "OCT_windowProc.h"
 
-LRESULT OC_windproc::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
-{
-    return DefWindowProc(hwnd, uMsg, wParam, lParam);
-}
+//LRESULT OC_windproc::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+//{
+//    return DefWindowProc(hwnd, uMsg, wParam, lParam);
+//}
 
 OC_windproc::OC_windproc()
 {
@@ -21,8 +21,9 @@ OC_windproc::~OC_windproc()
 
 procFunction_pointer OC_windproc::get_proc(int proc_id)
 {
-    int tmp = procID_list->count(proc_id);
 
+    // 在查找表中查询过程ID(proc_id) , 如果不存在则返回NULL
+    int tmp = procID_list->count(proc_id);  
     if (tmp == 0)
     {
         return NULL;
@@ -36,10 +37,6 @@ procFunction_pointer OC_windproc::get_proc(int proc_id)
     else {
         return NULL;
     }
-
-
-
-
 
     //LRESULT(*tmp_1)(HWND, UINT, WPARAM, LPARAM);
     //tmp_1 = procID_list[proc_id];

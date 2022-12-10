@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include<Windows.h>
 
 #define DLL_IMPORT_PRC _declspec(dllimport)
