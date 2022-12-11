@@ -31,6 +31,12 @@
     <Filter Include="头文件\win32">
       <UniqueIdentifier>{5c5c9d48-f317-4579-842f-434b29399b52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\win32\manager">
+      <UniqueIdentifier>{aad44d6c-0d72-4a86-ae18-ab42c5734bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\win32\manager">
+      <UniqueIdentifier>{eafa5ae0-af6d-4bdb-8de8-db4ea4b58580}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dll_export.h">
@@ -45,6 +51,9 @@
     <ClInclude Include="OC_windproc.h">
       <Filter>头文件\win32</Filter>
     </ClInclude>
+    <ClInclude Include="WndClassManager.h">
+      <Filter>头文件\win32\manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dll_export.cpp">
@@ -58,6 +67,9 @@
     </ClCompile>
     <ClCompile Include="OC_windproc.cpp">
       <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="WndClassManager.cpp">
+      <Filter>源文件\win32\manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
