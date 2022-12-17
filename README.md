@@ -24,15 +24,20 @@
 
 ## 项目使用  
 
-- 什么是DLL?  
-    在使用DLL之前您可能需要了解什么是DLL文件  
-    您可以 [点击这里](https://learn.microsoft.com/zh-cn/troubleshoot/windows-client/deployment/dynamic-link-library "什么是DLL --Microsoft") 跳转到Microsoft官方的文档解释.
+### 什么是DLL?  
+在使用DLL之前您可能需要了解什么是DLL文件  
+您可以 [点击这里](https://learn.microsoft.com/zh-cn/troubleshoot/windows-client/deployment/dynamic-link-library "什么是DLL --Microsoft") 跳转到Microsoft官方的文档解释.
 
-- 静态链接使用  
-    - DLL库正在开发,暂时无法提供使用方法.  
+### 静态链接使用  
+- DLL库正在开发,暂时无法提供使用方法.  
 
-- 动态链接使用
-    - 动态链接使用
+### 动态链接使用
+- 动态链接使用教程  
+    我们没有找到Microsoft有关动态链接的教程,所以我们将提供一个我们认为可行的国内网站提供的教程 [点我跳转](https://blog.csdn.net/ezhchai/article/details/78784815 "此教程来自中国最大的编程交流博客 SCDN")  
+
+- 动态链接使用的函数指针  
+    抱歉,当前无法为您提供任何可能的函数指针签名.  
+    因为当前项目所有的可导出函数均为测试函数,不可用于实际开发.  
 
 ## 开发人员
 
