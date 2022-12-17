@@ -24,15 +24,15 @@
 
 ## 项目使用  
 
-    - 什么是DLL?  
-        在使用DLL之前您可能需要了解什么是DLL文件  
-        您可以 [点击这里](https://learn.microsoft.com/zh-cn/troubleshoot/windows-client/deployment/dynamic-link-library) 跳转到Microsoft官方的文档解释.
+- 什么是DLL?  
+    在使用DLL之前您可能需要了解什么是DLL文件  
+    您可以 [点击这里](https://learn.microsoft.com/zh-cn/troubleshoot/windows-client/deployment/dynamic-link-library) 跳转到Microsoft官方的文档解释.
 
-    - 静态链接使用  
-        - DLL库正在开发,暂时无法提供使用方法.  
+- 静态链接使用  
+    - DLL库正在开发,暂时无法提供使用方法.  
 
+- 动态链接使用
     - 动态链接使用
-        - 动态链接使用
 
 ## 开发人员
 
