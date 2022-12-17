@@ -22,12 +22,24 @@
 - share  
     共享项目,当前用于存放多个子项目都会用到的资源和头文件  
 
+## 项目使用  
+
+    - 什么是DLL?  
+        在使用DLL之前您可能需要了解什么是DLL文件  
+        您可以 [点击这里](https://learn.microsoft.com/zh-cn/troubleshoot/windows-client/deployment/dynamic-link-library) 跳转到Microsoft官方的文档解释.
+
+    - 静态链接使用  
+        - DLL库正在开发,暂时无法提供使用方法.  
+
+    - 动态链接使用
+        - 动态链接使用
+
 ## 开发人员
 
 - ourcwj  
     - 简介:  
         个人开发者,当前主要学习 ` C++ ` ,辅语言 ` Python `.  
-        个人开发经验较少,使用Microsoft的VS IDE环境
+        个人开发经验较少,使用Microsoft的VS IDE环境.  
     - 联系方式:  
         - E-mail_01: <cwj1485678001scp@outlook.com>  
         - E-mail_02: <ourcwj@ourcwj.tk>       
@@ -38,6 +50,12 @@
 
 - DrXuddd  
     暂无,等待此开发者补充  
+
+## 开源协议
+
+本项目使用**MIT开源许可证**  
+本项目允许被传播,使用,及商用. 但请注明来源  
+本项目开发人员**只有**开发和维护本项目的义务.**不承担**因为使用本项目而造成的**任何损失**  
 
 ---
 
