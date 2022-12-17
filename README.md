@@ -25,19 +25,19 @@
 ## 开发人员
 
 - ourcwj  
-    - 简介:初中生罢了,学习差的一批!没什么好介绍的.  
+    - 简介:  
+        个人开发者,当前主要学习 ` C++ ` ,辅语言 ` Python `.  
+        个人开发经验较少,使用Microsoft的VS IDE环境
     - 联系方式:  
-        - E-mail_01: <cwj1485678001scp@outlook.com>   > 个人的主要邮箱,如果不回就用其他的方式碰碰运气吧!
-        - E-mail_02: <ourcwj@ourcwj.tk>               > 这个邮箱我可能不看
-        - E-mail_03: <1961894636@qq.com>              > 基本不看
-        - E-mail_04: <qwe1485678@163.com>             > 这个是旧邮箱
-        - E-mail_05: <qwe1485678@gmali.com>           > 你认为我可能闲得无聊去翻墙看这个Google邮箱??
+        - E-mail_01: <cwj1485678001scp@outlook.com>  
+        - E-mail_02: <ourcwj@ourcwj.tk>       
+        - E-mail_03: <1961894636@qq.com>  
+        - E-mail_04: <qwe1485678@163.com>  
+        - E-mail_05: <qwe1485678@gmali.com>  
         - QQ: 1961894636
-        - ......  好像没了 ......
 
 - DrXuddd  
-    还是让他自己写吧......  
-    毕竟我也不知道这个算不算侵犯隐私...
+    暂无,等待此开发者补充  
 
 ---
 
