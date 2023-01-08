@@ -4,7 +4,7 @@
 
 
 // 窗口样式结构体
-typedef struct window_sytle
+struct window_sytle
 {
 	UINT	wndclass_sytle;		// 窗口类样式
 	DWORD	window_sytle;		// 窗口基本样式
@@ -12,7 +12,7 @@ typedef struct window_sytle
 };
 
 // 窗口信息结构体
-typedef struct window_info
+struct window_info
 {
 	LPCSTR			windowName;				// 窗口名称(标题)
 	LPCSTR			windowClassName;		// 窗口类名称
